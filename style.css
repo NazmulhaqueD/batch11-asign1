@@ -172,4 +172,42 @@ select{
     background-color: #C6E4D6;
     text-align: center;
 }
+
+/* recent-section starts here  */
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.news-title .desc{
+    padding: 24px 0;
+}
+
+.satellite-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    background-color: white;
+    padding: 48px;
+    border-radius: 24px;
+}
+.satellite-left{
+    /* width: 40%;
+    text-align: left; */
+}
+.satellite{
+    border-radius: 24px;
+}
+
+.satellite-right{
+    /* width: 60%;
+    text-align: left; */
+}
+.aljazeera{
+    padding: 12px 0;
+}
+.sat-desc{
+    padding: 12px 0 25px 0;
+}
 /* main ends here  */
