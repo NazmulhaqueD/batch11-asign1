@@ -31,7 +31,13 @@ body{
     color: white;
     transition: .3s;
 }
+.desc{
+    font-size: 16px;
+    color: #0E0E0E;
+}
 /* common-style ends here  */
+
+/* header style starts here  */
 nav{
     display: flex;
     justify-content: space-between;
@@ -67,6 +73,26 @@ nav{
     font-size: 56px;
     padding-bottom: 24px;
 }
-/* header style starts here  */
-
 /* header style ends here  */
+
+/* main starts here  */
+/* pillars-section */
+.pillars-section{
+    margin: 80px 0;
+}
+.pillars-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 32px;
+}
+.pillar-card{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0px 4px 50px 0 silver;
+}
+.sub-title{
+    font-size: 20px;
+    padding: 24px 0 12px 0;
+}
+/* main ends here  */
