@@ -204,10 +204,51 @@ select{
     /* width: 60%;
     text-align: left; */
 }
+.sat-title{
+    font-size: 32px;
+}
 .aljazeera{
     padding: 12px 0;
 }
 .sat-desc{
     padding: 12px 0 25px 0;
+}
+
+/* donate-section starts here  */
+.donate-section{
+    text-align: center;
+    padding: 80px;
+}
+.donate-desc{
+    padding: 24px 0;
+}
+.amount-container{
+    display: flex;
+    gap: 24px;
+}
+.amount{
+    border: 1px solid silver;
+    border-radius: 16px;
+    padding: 40px;
+    transition: .3s;
+}
+.amount:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: #C6E4D6;
+    cursor: pointer;
+}
+.taka-200{
+    background-color: #C6E4D6;
+}
+.donate-input{
+    width: 90%;
+    margin: 20px 0 32px 0;
+    padding: 20px 0;
+    border: none;
+    border-radius: 5px;
+}
+.donate-input::placeholder{
+    text-align: center;
 }
 /* main ends here  */
