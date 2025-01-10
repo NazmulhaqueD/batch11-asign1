@@ -25,6 +25,7 @@ body{
     color: #FFFFFF;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .common-btn:hover{
     background-color: #0E0E0E;
@@ -290,3 +291,24 @@ select{
     cursor: pointer;
 }
 /* main ends here  */
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+footer h2{
+    padding-bottom: 32px;
+}
+.footer-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid silver;
+    padding: 32px 0;
+    text-align: center;
+}
+
