@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #F5F5F5;
+    font-family: "Fira Sans", serif;
+}
+.main-container{
+    max-width: 1280px;
+    margin: 0 auto;
+    /* background-color: silver; */
+}
+/* common-style starts here  */
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.common-btn{
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+.common-btn:hover{
+    background-color: #0E0E0E;
+    color: white;
+    transition: .3s;
+}
+/* common-style ends here  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0;
+    align-items: center;
+}
+.nav-title{
+    font-size: 32px;
+}
+.nav-btn{
+    background-color: #F5F5F5;
+    border: 2px solid #006A50;
+    color: #006A50;
+}
+
+
+/* bannar-section starts here  */
+.bannar-section{
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px;
+}
+.bannar-title{
+    font-size: 24px;
+    color: #0E0E0E;
+    padding-bottom: 16px;
+}
+.bannar-sub-desc{
+    font-size: 56px;
+    padding-bottom: 24px;
+}
+/* header style starts here  */
+
+/* header style ends here  */
