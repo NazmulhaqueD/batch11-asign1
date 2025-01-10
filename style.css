@@ -141,4 +141,35 @@ nav{
     background-repeat: no-repeat;
     background-position: top 20px left 24px;
 }
+
+/* opinion section starts here  */
+.opinion-section{
+    margin-bottom: 80px;
+}
+.opinion-section h2{
+    padding-bottom: 24px;
+}
+.table-div{
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 24px;
+}
+td, th{
+    border: 1px solid silver;
+    padding: 20px 24px;
+    text-align: left;
+}
+th{
+    background-color: #C6E4D6;
+}
+select{
+    padding: 15px 30px;
+    background-color: #C6E4D6;
+    text-align: center;
+}
 /* main ends here  */
